@@ -1,5 +1,5 @@
 # # ### BELOW IS A STEP BY STEP GUIDE ON ENABLING INTERNET THROUGH USB AND DOWNLOADING HOSTAPD.
-# # ### IT ALSO INCLUDES AUTOMATING THIS PROCESS FOR YOUR POCKETBEAGLE.
+# # ### IT ALSO INCLUDES HOW TO AUTOMATE THIS PROCESS USING YOUR POCKETBEAGLE.
 ## First, enable Ethernet through USB on your Pocketbeagle by plugging it into your computer. 
 ## Follow these steps to do so: 
 
