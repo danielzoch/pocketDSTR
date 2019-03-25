@@ -27,7 +27,9 @@ https://debian.beagleboard.org/images/bone-debian-9.3-iot-armhf-2018-03-05-4gb.i
 
 10. Click the box that says 'Allow other network users to connect through this computer's Internet connection' 
 and choose the 'Home networking connection' as the title of the Pocketbeagle's indentification, 
-usually it should say 'Remote NDIS Compatible Device #X' 11. Save your changes, 
+usually it should say 'Remote NDIS Compatible Device #X' 
+
+11. Save your changes, 
 go back to the network connections page and 
 right click on your Pocketbeagle device's network and go to Properties. 
 
