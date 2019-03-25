@@ -35,21 +35,23 @@ right click on your Pocketbeagle device's network and go to Properties.
 
 13. Use the following IP address (this is the gateway from your computer to the Pocketbeagle: 
 
-IP address: 192.168.7.1 
-Subnet mask: 255.255.255.0 
+IP address: ```192.168.7.1``` 
+Subnet mask: ```255.255.255.0```
 
 Leave everything else blank, even the preferred DNS server and press OK to save your changes. 
 
 14. Start PuTTY 
 
-15. Use 192.168.7.2 as your host name and 22 as your port number, and then connect
+15. Use ```192.168.7.2``` as your host name and ```22``` as your port number, and then connect
 
-16. Login as: debian, the password will be temppwd upon default 
+16. Login as: ```debian```, the password will be ```temppwd``` upon default 
 
 17. Check connectivity. 
 Type the following command: 
 
-```sudo nano resolv.conf ```
+```
+sudo nano resolv.conf
+```
 
 
 This will prompt you for the password, which is temppwd, and you will have an empty file. 
@@ -61,14 +63,18 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4 
 ```
 Press ctrl+X and then Y to save and exit this file. 
-This file sets up DNS resolution so you can ping google.com instead of ping 8.8.8.8. 
+This file sets up DNS resolution so you can ```ping google.com``` instead of ```ping 8.8.8.8```. 
 Next in the terminal you will type:
 
-```sudo /sbin/route add default gw 192.168.7.1 ```
+```
+sudo /sbin/route add default gw 192.168.7.1
+```
 
 This will set up the gateway to the internet. Next, test your connection to the internet by using the command: 
 
-```ping google.com ```
+```
+ping google.com
+```
 
 in your terminal. You should see packets starting to flow. Use ctrl+c to stop this. 
 
@@ -105,7 +111,7 @@ sudo create_ap -n -g 192.168.1.1 wlan0 networkID password &
 ```
 
 (running the script in the background)
-Navigate to /etc/systemd/system
+Navigate to ```/etc/systemd/system```
 
 ```
 cd /etc/systemd/system
