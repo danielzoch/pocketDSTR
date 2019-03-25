@@ -35,7 +35,7 @@ right click on your Pocketbeagle device's network and go to Properties.
 
 12. Left click on 'Internet Protocol Version 4 (TCP/IPv4)' and go to Properties below 
 
-13. Use the following IP address (this is the gateway from your computer to the Pocketbeagle: 
+13. Use the following IP address (this is the gateway from your computer to the Pocketbeagle): 
 
 IP address: ```192.168.7.1``` 
 Subnet mask: ```255.255.255.0```
