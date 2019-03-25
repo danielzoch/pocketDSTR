@@ -102,7 +102,7 @@ If prompted, the password will be temppwd upon default.
 ```
 !/bin/sh -
 ```
-(to resolve and domain name server issues because of create_ap)
+(to resolve any domain name server issues because of create_ap)
 ```
 sudo pkill -f 'dns'
 ```
