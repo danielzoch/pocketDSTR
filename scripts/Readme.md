@@ -1,4 +1,4 @@
-This folder contains the IO program used to control the Pocketbeagle DSTR robot, the script used to create
+This folder contains the IO program used to control the Pocketbeagle DSTR robot, the command used to create
 the network using hostapd, and the service file used to start that script on boot. Thus, both the dstr.py file
 containing the IO and the network initiation command will both run on boot.
 
