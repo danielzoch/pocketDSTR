@@ -1,0 +1,7 @@
+[Service]
+Type=simple
+ExecStart=/home/debian/create_ap/filename.sh
+CPUSchedulingPolicy=rr
+CPUSchedulingPrioty=27
+[Install]
+WantedBy=multi-user.target graphical.target
