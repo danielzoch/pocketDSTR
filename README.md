@@ -124,7 +124,7 @@ within the script:
 ```
 [Service]
 Type=simple
-ExecStart=/home/debian/filename.sh
+ExecStart=/home/debian/create_ap/filename.sh
 CPUSchedulingPolicy=rr
 CPUSchedulingPrioty=27
 [Install]
