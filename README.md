@@ -137,7 +137,7 @@ set up service daemon to run on boot
 
 It should now run in the background upon boot.
 Within your filename.sh script you can also include any IO script you would like to run on boot after the create_ap command.
-The scripts folder contains the scripts used in the Pocketbeagle DSTR project.
+The scripts folder contains the scripts used in the Pocketbeagle DSTR project for reference.
 
 
 
