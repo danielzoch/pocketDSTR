@@ -3,4 +3,5 @@ the network using hostapd, and the service file used to start that script on boo
 containing the IO and the network initiation command will both run on boot.
 
 Special thanks to Daniyal Ansari, Dr. Joseph Morgan of the Mobile Integrated Solutions Laboratory at Texas A&M University,
-everyone who helped with the project, TStar/Matt Leonard for the rights to the DSTR robot, and Cathy Wicks at Octavo for her support.
+everyone who helped with the project, TStar/Matt Leonard for the rights to the DSTR robot, and Cathy Wicks at Octavo Systems 
+for her support.
