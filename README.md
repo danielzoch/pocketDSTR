@@ -90,9 +90,13 @@ https://github.com/IntelOpenDesign/MakerNode/wiki/Hostapd:-compiling-instruction
 This next portion will describe the steps to create and automate your WiFi script.
 
 1. Create a new file to hold your AP script. Name this whatever you choose.
+
+
 Navigate to /home/debian/create_ap to create your new file in that folder.
 ```
-cd /home/debian/create_ap
+cd /home/debian
+sudo mkdir create_ap
+cd create_ap
 sudo nano filename.sh
 ```
 If prompted, the password will be temppwd upon default.
