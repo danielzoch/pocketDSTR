@@ -52,7 +52,7 @@ Leave everything else blank, even the preferred DNS server and press OK to save 
 Type the following command: 
 
 ```
-sudo nano resolv.conf
+sudo nano /etc/resolv.conf
 ```
 
 
