@@ -137,7 +137,7 @@ WantedBy=multi-user.target graphical.target
 ctrl+x and y to save
 set up service daemon to run on boot
 
-```systemctl daemon-reload; systemctl enable myscript; systemctl start myscript```
+```sudo systemctl daemon-reload;sudo systemctl enable myscript;sudo systemctl start myscript```
 
 It should now run in the background upon boot.
 Within your filename.sh script you can also include any IO script you would like to run on boot after the create_ap command.
