@@ -48,7 +48,7 @@ Leave everything else blank, even the preferred DNS server and press OK to save 
 
 16. Login as: ```debian```, the password will be ```temppwd``` upon default 
 
-17. Check connectivity. 
+17. Enable DNS resolution. 
 Type the following command: 
 
 ```
